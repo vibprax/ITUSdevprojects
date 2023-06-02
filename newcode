@@ -1,0 +1,17 @@
+# Sample Python Code
+
+def greet(name):
+    """
+    A function that greets the given name.
+    """
+    print(f"Hello, {name}!")
+
+def main():
+    """
+    The main function to execute the program.
+    """
+    name = input("Enter your name: ")
+    greet(name)
+
+if __name__ == "__main__":
+    main()
